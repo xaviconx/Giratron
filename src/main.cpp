@@ -6,26 +6,26 @@
 #define PWMPinB 33
 
 // Input buttons
-#define CWButtonA 1
-#define CCWButtonA 2
-#define CWButtonB 3
-#define CCWButtonB 4
+#define CWButtonA 19
+#define CCWButtonA 18
+#define CWButtonB 5
+#define CCWButtonB 17
 
 // For H bridge
-#define MotorA1 20
-#define MotorA2 21
-#define MotorB1 20
-#define MotorB2 21
+#define MotorA1 26
+#define MotorA2 27
+#define MotorB1 14
+#define MotorB2 12
 
 // For Encoders
-#define MotorEncoderA1 20
-#define MotorEncoderA2 21
-#define MotorEncoderB1 20
-#define MotorEncoderB2 21
+#define MotorEncoderA1 4
+#define MotorEncoderA2 0
+#define MotorEncoderB1 8
+#define MotorEncoderB2 7
 
 // For potentiometers
-#define PotA 22
-#define PotB 22
+#define PotA 15
+#define PotB 2
 
 // Aux variables
 const bool CW = true;
